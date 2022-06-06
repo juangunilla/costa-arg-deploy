@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src=
+    "https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js" 
+              crossorigin="anonymous">
+      </script>
+      
+    <link rel="stylesheet" href="estilosBack.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>BackClima</title>
+
+</head>
+<body>
+
+    <h1 class="backtitulo">Carga de climas</h1>
+    <div class="wrapper">
+  <form id="forms" name="forms" class="card">
+      <!-- <input type="text" name="ciudad" id="ciudad" > 
+      <label for="">Ciudad</label> -->
+      <label for="ciudad" >Ciudad</label>
+      <select name="ciudad" id="ciudad" required>
+        <option value="Mar del Plata">Mar Del Plata</option>
+        <option value="Santa Teresita">Santa Teresita</option>
+        <option value="Miramar">Miramar</option>
+        <option value="Mar de cobo">Mar de cobo</option>
+        <option value="Mar chiquita">Mar chiquita</option>
+        <option value="Mar del tuyu">Mar del tuyu</option>
+        <option value="Santa Clara">Santa Clara</option>
+      </select>
+      <!-- <input type="text" name="img" class="conteFormClima" id="img" >
+      <label for="">imagen</label> -->
+      <label for="Img">Imagen del tiempo</label>
+      <select name="img" id="Img" required>
+        <option value="../img/iconos/soleado.gif">Soleado</option>
+        
+        <option value="../img/iconos/parcialmenteNublado.gif">Algo Nublado</option>
+        <option value="../img/iconos/parcialmenteNubladoConLluvias.gif">Parcialmente Nublado con lluvias</option>
+        <option value="../img/iconos/lluvias.gif">Lluvias</option>
+
+      </select><br>
+      
+      <input type="text" id="descripcion" name="descripcion" class="conteFormClima" id="descripcion"  required>
+      <label for="descripcion">descripción</label>
+      
+      <input type="text" name="humedad" class="conteFormClima" id="humedad" required >
+      <label for="humedad">Humedad</label>
+      
+      <input type="text" name="viento" class="conteFormClima" id="viento" required >
+      <label for="viento">Viento</label>
+
+      <select name="img" id="direccion" required>
+        <option value="https://img.icons8.com/material-rounded/344/4a90e2/north.png">Norte</option>
+        <option value="https://img.icons8.com/ios-glyphs/344/4a90e2/south.png">Sur</option>
+        <option value="https://img.icons8.com/ios-glyphs/344/4a90e2/east.png">Este</option>
+        <option value="https://img.icons8.com/ios-glyphs/344/4a90e2/west.png">Oeste</option>
+      </select>
+      <label for="">Dirección</label>
+      
+      <input type="text" name="tmax" class="conteFormClima" id="tmax" required >
+      <label for="tmax">Temperatura Maxima</label>
+      
+      <input type="text" name="tmin" class="conteFormClima" id="tmin" required >
+      <label for="tmin">Temperatura Minima</label>
+      
+      <input type="text" name="inUv" class="conteFormClima" required id="indice" >
+      <label for="indice">Indice UV</label>
+      
+      <input type="submit" value="Enviar" class="boton">
+      <input type="hidden" name="id">
+  </form>
+    </div>
+</body>
+<script src="cargacli.js"></script>
+
+</html>
