@@ -1,7 +1,7 @@
 const ObtenerDepartamentos = async() => {
     try{
 
-      const depto = await axios.get('http://localhost:8080/api/departamentos')
+      const depto = await axios.get('https://costa-vista.herokuapp.com/api/departamentos')
       /// 
       console.log(depto.data);
   
