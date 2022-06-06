@@ -7,27 +7,27 @@
     display: flex;
 }
 .body-index{
-    background-image: url("/img/fondo.webp");
+    background-image: url("./img/fondo.webp");
     background-size: cover;
 }
 .body-playas-limpias{
-    background-image: url("/img/fondo-playa-limpia.webp");
+    background-image: url("./img/fondo-playa-limpia.webp");
     background-size: cover;
 }
 .body-fondo-clima{
-    background-image: url("/img/fondo-climas.webp");
+    background-image: url("./img/fondo-climas.webp");
     background-size: cover;
 }
 .body-restaurantes{
-    background-image: url("/img/fondo-retaurante.webp");
+    background-image: url("./img/fondo-retaurante.webp");
     background-size: cover;
 }
 .body-alquiler{
-    background-image: url("/img/fondo-alquileres.webp");
+    background-image: url("./img/fondo-alquileres.webp");
     background-size: cover;
 }
 .body-mapa{
-    background-image: url("/img/fondo-mapas.webp");
+    background-image: url("./img/fondo-mapas.webp");
     background-size: cover;
 }
 .navbar{
