@@ -1,6 +1,6 @@
 const ObtenerHsanta = async() => {
     try{
-      const santaclara = await axios.get('http://localhost:8080/api/hsantaclara')
+      const santaclara = await axios.get('https://costa-vista.herokuapp.com/api/')
 
       console.log(santaclara.data);
   

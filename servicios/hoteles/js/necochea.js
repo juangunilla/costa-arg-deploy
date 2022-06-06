@@ -1,6 +1,6 @@
 const ObtenerHneco = async() => {
     try{
-      const necochea = await axios.get('http://localhost:8080/api/hnecochea')
+      const necochea = await axios.get('https://costa-vista.herokuapp.com/api/hnecochea')
 
       console.log(necochea.data);
   

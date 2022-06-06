@@ -1,6 +1,6 @@
 const Obtenerdmarchi = async() => {
     try{
-      const marchi = await axios.get('http://localhost:8080/api/dmarchiquita')
+      const marchi = await axios.get('https://costa-vista.herokuapp.com/api/dmarchiquita')
 
       console.log(marchi.data);
   

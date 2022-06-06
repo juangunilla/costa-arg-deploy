@@ -1,6 +1,6 @@
 const Obtenerdmardel = async() => {
     try{
-      const mardel = await axios.get('http://localhost:8080/api/dmardelplata')
+      const mardel = await axios.get('https://costa-vista.herokuapp.com/api/dmardelplata')
 
       console.log(mardel.data);
   

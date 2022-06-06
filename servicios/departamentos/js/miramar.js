@@ -1,6 +1,6 @@
 const Obtenerdmiramar = async() => {
     try{
-      const miramar = await axios.get('http://localhost:8080/api/dmiramar')
+      const miramar = await axios.get('https://costa-vista.herokuapp.com/api/dmiramar')
 
       console.log(miramar.data);
   
