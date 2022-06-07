@@ -23,7 +23,7 @@
                 
                },
                
-               res=await axios("http://localhost:8080/api/climas",options),
+               res=await axios("https://costa-vista.herokuapp.com/api/climas",options),
                json= await res.data();
                alert(data);
 
