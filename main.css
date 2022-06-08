@@ -325,6 +325,11 @@ grid-column: 2/2;
     margin: auto;
     animation: girar 1.5s linear infinite;
 }
+.center{
+    display: block;
+    margin: auto;
+    width: 20px;
+}
 
 @keyframes girar {
     from{
