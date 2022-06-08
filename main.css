@@ -19,7 +19,7 @@
     background-size: cover;
 }
 .body-restaurantes{
-    background-image: url("img/fondo-retaurante.webp");
+    background-image: url("img/fondo-restaurantes.webp");
     background-size: cover;
 }
 .body-alquiler{
@@ -96,14 +96,14 @@ p.index{
     margin-top: 15px;
     text-shadow: 3px 3px 6px whitesmoke;
     color: white;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.606);
     box-shadow: 2px 1px 6px 2px whitesmoke;
 }
 .Hoteles{
     display: flex;
     height: 5vw;
     width: 100vw;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.607);
     box-shadow: 2px 1px 5px 2px whitesmoke;
     color: white;
     padding-left: 10px;
@@ -125,7 +125,7 @@ p.index{
     display: flex;
     height: 5vw;
     width: 100vw;
-    background-color:rgb(31, 24, 130);
+    background-color:rgba(31, 24, 130, 0.601);
     box-shadow: 2px 1px 5px 2px whitesmoke;
     color: white;
     padding-left: 10px;
@@ -136,7 +136,7 @@ p.index{
     margin-top: 15px;
     text-shadow: 3px 3px 6px whitesmoke;
     color: white;
-    background-color: rgb(31, 24, 130);
+    background-color: rgba(31, 24, 130, 0.605);
     box-shadow: 2px 1px 6px 2px whitesmoke;
 }
 .menu2{
@@ -286,7 +286,55 @@ grid-column: 2/2;
 .alquileres{
     display: grid;
 	grid-template-columns: repeat(3, 1fr);
+}
+
+.restaurantes{
+    background-color: rgba(0, 128, 0, 0.527);
+    box-shadow: 2px 1px 6px 2px whitesmoke;
+
+}
+.titulopag3{
+    background-color: rgba(0, 128, 0, 0.536);
+    font-size: 5em;
+    text-align:center;
+    margin-top: 15px;
+    text-shadow: 3px 3px 6px whitesmoke;
+    color: white;
+    box-shadow: 2px 1px 6px 2px whitesmoke;
+}
+
+#contenedor_carga{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    transition: all 1s ease;
+    z-index: 10000;
+}
+#load{
+    border: 15px solid #ccc;
+    border-top-color: #F93C03;
+    border-top-style:groove ;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    animation: girar 1.5s linear infinite;
+}
+
+@keyframes girar {
+    from{
+        transform:rotate(0deg);
+    }    
+    to{
+        transform: rotate(360deg);
     }
+}
+
 
 
  

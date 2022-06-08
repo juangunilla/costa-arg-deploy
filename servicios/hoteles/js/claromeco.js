@@ -1,6 +1,6 @@
 const ObtenerHclaro = async() => {
     try{
-      const claro = await axios.get('http://localhost:8080/api/hclaromeco')
+      const claro = await axios.get('https://costa-vista.herokuapp.com/api/hclaromeco')
 
       console.log(claro.data);
   
