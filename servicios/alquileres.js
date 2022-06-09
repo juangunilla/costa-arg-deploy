@@ -16,13 +16,13 @@ const ObtenerAlquileres = async() => {
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner carru">
     <div class="carousel-item active">
-      <img class="imgalqui" src="${alquiler.img}" class="d-block w-100" alt="...">
+      <img class="imgalqui" src="${alquiler.img}"  alt="...">
     </div>
     <div class="carousel-item">
-      <img class="imgalqui" src="${alquiler.img1}" class="d-block w-100" alt="...">
+      <img class="imgalqui" src="${alquiler.img1}" alt="...">
     </div>
     <div class="carousel-item">
-      <img class="imgalqui" src="${alquiler.img2}" class="d-block w-100" alt="...">
+      <img class="imgalqui" src="${alquiler.img2}"alt="...">
     </div>
   </div>
 </div>
