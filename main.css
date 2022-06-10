@@ -406,9 +406,10 @@ grid-column: 2/2;
     }
     
     .mapa{
-        margin-left: 5px;
+        margin-left: 1em;
+        margin-top: 1em;
         width: 340px;
-        height: 340px;
+        height: 400px;
     }
     .titulo{
         margin-left: 5px;
@@ -432,6 +433,13 @@ grid-column: 2/2;
     }
     .alqui{
         width: 80vw;
+    }
+    .titulopag2{
+        font-size:3em
+
+    }
+    .Departamentos{
+        display: none;
     }
 
 }
